@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的生活二</title>
+    <style>
+        /* 重置默认样式 */
+        *{
+            margin:0;
+            padding: 0;
+        }
+        h1{text-align: center; font-family: "宋体"; 
+    }
+        
+         h2{text-align: right; 
+            font-family: "宋体";
+            margin-right:15px;
+            margin-top:0; color:black;
+            font-size: 15px;
+        }
+        body{ 
+      background:url("背景8.gif")
+      no-repeat;
+	  background-size: cover;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -10;
+      object-fit: cover;
+         }
+        .list{
+           width: 1250px;
+           height:550px;
+           display: flex;
+           margin:20px auto
+           ;
+	  background-color: #ffffff90;
+           flex-wrap: wrap;
+        }
+        .list li{
+            width:310px;
+            height:250px;
+            background-color:#ffffff90;
+            
+            border-radius: 10px;
+            margin-top:5px;
+            box-shadow: 0 0 0px #dedede;
+ 
+            list-style: none;
+            transition: all .2s;/*控制时间*/
+        }
+        .list img{
+            margin-left: 20px;
+            margin-top:14px;
+        }
+ 
+        .title{
+            font-size:20px;
+            color:#333333;
+        }
+        .smalltitle{
+           
+            
+			text-align: right;
+			display: block;
+			font-size: 17px;
+			text-align: center;
+			color: rgb(6, 6, 6);
+			
+ 
+        }
+        .list li:hover{
+            box-shadow: 10px 10px 10px #fff;
+            transform:scale(1.1);
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+ 
+<body>  <h1>照片墙</h1>
+  <h2>点此返回我的主界面？<a href="主页.html">返回</a></h2> 
+    <ul class="list">
+      
+        <li>
+            <img src="1.jpg" alt=""width="260" height="200">
+            
+            <p class="smalltitle">张家界国家公园
+            </p>
+        </li>
+        <li>
+            <img src="2.jpg" alt=""width="260" height="200">
+           
+            <p class="smalltitle">天门山</p>
+        </li>
+        <li>
+            <img src="3.jpg" alt=""width="260" height="200">
+            
+            <p class="smalltitle">伊河</p>
+        </li>
+        <li>
+            <img src="4.jpg" alt=""width="260" height="200">
+           
+            <p class="smalltitle">冰川</p>
+        </li>
+        <li>
+            <img src="5.jpg" alt=""width="260" height="200">
+            <p class="smalltitle">天池山</p>
+        </li>
+        <li>
+            <img src="6.jpg" alt=""width="260" height="200">
+            <p class="smalltitle">陆浑</p>
+        </li>
+        <li>
+            <img src="7.jpg" alt=""width="260" height="200">
+            
+            <p class="smalltitle">大雁塔</p>
+        </li>
+        <li>
+            <img src="8.jpg" alt=""width="260" height="200">
+            
+            <p class="smalltitle">西安城墙</p>
+        </li>
+    </ul>
+</body>
+</html>
